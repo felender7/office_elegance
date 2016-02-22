@@ -1,0 +1,609 @@
+﻿
+
+
+
+/* Global resets Sections 
+===========================================*/
+  #FulltimeOffice, #Boardroom, #ContctUs {
+    padding-top: 150px;
+  
+    height: 100%;
+}
+
+ /*.block-section {
+	padding: 50px 0;
+}*/
+/* About Section 
+===========================================*/
+#about {
+    margin-top:50px;
+}
+    #about h3 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #about span {
+        margin: 0 0 -2px 0;
+        padding-bottom: 5px;
+        display: inline-block;
+        border-bottom: 2px solid #3771AE;
+        text-align: center;
+        width:50%;
+    }
+
+#about p {
+    margin-top: 20px;
+    text-align: center;
+}
+/* About Section End
+===========================================*/
+
+/* Get Social Section 
+===========================================*/
+#getSocial h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+  
+#getSocial p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#getSocial .well{
+    margin-top:20px;
+    height:261px;
+    width:100%;
+    background-color:#fff;
+}
+/* Get Social Section End
+===========================================*/
+
+
+
+
+/* FulltimeOffice 
+===========================================*/
+
+section#FulltimeOffice {
+    
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#FulltimeOffice h3 {
+    text-align: left;
+    text-transform: uppercase;
+   
+}
+#FulltimeOffice span {
+        margin: 0 0 -2px 0;
+        padding-bottom: 5px;
+        display: inline-block;
+        border-bottom: 2px solid #3771AE;
+        text-align: left;
+        width:100%
+    }
+#FulltimeOffice p {
+  
+    margin-top: 20px;
+    text-align: justify;
+    line-height:20pt;
+}
+
+#FulltimeOffice img{
+
+
+    }
+
+
+#FulltimeOffice .badge {
+   
+      border-bottom: none;
+      background-color:#3771AE;
+}
+.photo-info i{
+    color:#fff;
+}
+
+/* FulltimeOffice End
+===========================================*/
+
+
+
+/* Boardroom Office
+===========================================*/
+
+
+#Boardroom{
+
+     padding-bottom: 150px;
+    }
+#Boardroom h3 {
+    text-align: left;
+    text-transform: uppercase;
+}
+#Boardroom span {
+        margin: 0 0 -2px 0;
+        padding-bottom: 5px;
+        display: inline-block;
+        border-bottom: 2px solid #3771AE;
+        text-align: left;
+        width:100%
+    }
+#Boardroom p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height:20pt;
+}
+
+
+#Boardroom .badge {
+   
+      border-bottom: none;
+      background-color:#3771AE;
+}
+/* Boardroom Office End
+===========================================*/
+
+
+/* VirtualOfficePlus 
+===========================================*/
+
+
+#VirtualOfficePlus{
+
+    padding-top:70px
+}
+
+    #VirtualOfficePlus h3 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #VirtualOfficePlus span {
+        margin: 0 0 -2px 0;
+        padding-bottom: 5px;
+        display: inline-block;
+        border-bottom: 2px solid #3771AE;
+        text-align: center;
+        width:50%;
+    }
+
+    #VirtualOfficePlus p {
+
+        line-height:20pt;
+    }
+
+
+
+
+
+
+    /*Pricing Page
+------------------------------------*/
+/*Pricing Head*/
+.no-space-pricing [class^="col-"],
+.no-space-pricing [class*=" col-"] {
+	padding: 0;
+}
+.pricing {
+	position:relative;
+	border-radius:3px;
+	margin-bottom:15px;
+	box-shadow:0 0 5px #eee;
+}
+.pricing:hover {
+	box-shadow:0 0 15px #b5b5b5;
+}
+.pricing:hover h4 {
+	color:#3771AE;
+}
+.pricing-head {
+	text-align:center;
+}
+.pricing h3,
+.pricing h4 {
+	margin:0;
+	line-height:normal;
+	font-weight:bold;
+}
+.pricing p {
+	padding-top: 10px;
+	font-size: 11px;
+}
+.pricing-head h3 span, 
+.pricing-head h4 span {
+	display:block;
+	margin-top:5px;
+	font-size:12px;
+	font-style:italic;
+}
+.pricing-head h3 {
+	color:#fafafa;
+	padding:12px 0;
+	font-size:35px;
+	font-family:Arial;
+	background:#3771AE;
+	border-radius:3px 3px 0 0;
+	text-shadow:0 1px 0 #fff;
+}
+.pricing-head h4 {
+	color: #888;
+	padding:5px 0;
+	font-size:70px;
+	text-shadow:0 1px 0 #fff;
+	border-bottom:solid 1px #f5f9e7;
+}
+.pricing-head h4 i {
+	top:-8px;
+	font-size:28px;
+	font-style:normal;
+	position:relative;
+}
+.pricing-head h4 span {
+	top:-10px;
+	font-size:14px;
+	font-style:normal;
+	position:relative;
+}
+	
+/*Pricing Content*/
+
+.pricing-content  {
+	margin-bottom: 0px;
+}
+.pricing-content li {
+	color:#888;
+	font-size:12px;
+	padding:7px 15px;
+	border-bottom:solid 1px #f5f9e7;
+}
+.pricing-content li i {
+	color:#3771AE;
+	font-size:16px;
+	margin-right:5px;
+	position:relative;
+}
+
+/*Pricing Footer*/
+.pricing-footer {
+	color:#777;
+	font-size:11px;
+	line-height:17px;
+	text-align:center;
+	padding:0 20px 19px;
+	border-radius:0 0 3px 3px;
+}
+
+/*Pricing Active*/
+.price-active,
+.pricing:hover {
+	/*z-index:9;*/
+	margin-top: -15px;
+}
+.price-active h4 {
+	color:#3771AE;
+}
+
+
+/*Pricing Table Mega v2 
+------------------------------------*/
+
+.pricing-mega-v2 .price-active,
+.pricing-mega-v2 .pricing:hover {
+	margin-top: 0px;
+	margin: 40px 0;
+}
+.pricing-mega-v2 .pricing {
+	position: relative;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	margin-bottom: 100px;
+	box-shadow: 0 0 0px #eee;
+	border: 1px solid #eee;
+	margin: 40px 0;
+}
+.pricing-mega-v2 .pricing-head  h3 {
+	font-size: 25px;
+	min-height: 75px;
+}
+.pricing-mega-v2 .pricing-head h4{
+	font-size: 20px;
+}
+.pricing-mega-v2 .pricing-head h4 i {
+	color: #888888;
+}
+.pricing-mega-v2 .pricing:hover h4 i {
+	color: #3771AE;
+}
+
+.pricing-mega-v2 .pricing-head h4 span,
+.pricing-mega-v2 .pricing-content li span,
+.padding-mega-v2 .pricing-head .price span {
+	display: block; 
+	padding: 10px 0px 0px;
+}
+.pricing-mega-v2 .pricing-head .price {
+	font-size: 70px;
+	font-style: normal;
+	padding-bottom: 0px;
+	background-color: #fff;
+}
+.pricing-mega-v2 .pricing-head h3, 
+.pricing-mega-v2 .pricing-head h4 {
+	font-style: normal;
+	font-weight: normal !important;
+}
+.pricing-mega-v2 .hidden-area {
+	margin-top: 115px;
+}
+.pricing-mega-v2 .hidden-area:hover {
+	margin-top: 115px;
+}
+.pricing-mega-v2 .hidden-area .pricing-head h4 {
+    font-size: 28px;
+    min-height: 103px;
+    padding: 31px 0;
+}
+.pricing-mega-v2 .hidden-area:hover .pricing-head h4 {
+	color: #888;
+}  
+.pricing-mega-v2 .hidden-area li:hover  i{
+	color: #3771AE;
+} 
+
+.pricing-mega-v2 .block li {
+	text-align: center;
+}
+.pricing-mega-v2 .block li i {
+	font-size: 13px;
+}
+
+.pricing-mega-v2 .pricing-content li {
+	padding: 10px;
+	font-size: 12px;
+	font-style: normal;
+	min-height: 41px;
+}
+.pricing-mega-v2 .hidden-area li {
+	font-size: 12px;
+}
+.pricing-mega-v2 .pricing-content li i {
+	color: #888; 
+}
+.pricing-mega-v2 .bg-color {
+	background-color: #f9f9f9;	
+}
+.pricing-mega-v2 .block:hover .bg-color {
+	background: #848688;
+}
+.pricing-mega-v2 .block:hover h3,
+.pricing-mega-v2 .block:hover h4, 
+.pricing-mega-v2 .block:hover li, 
+.pricing-mega-v2 .block:hover li i,
+.pricing-mega-v2 .block:hover h4 i {
+	color: #fff !important;
+	background: #848688;
+}
+.pricing-mega-v2 .hidden-area:hover li i {
+	color: #888;
+}
+.pricing-mega-v2 a{
+	padding: 8px 0 ;
+}
+
+    /* VirtualOfficePlus End
+===========================================*/
+
+
+
+
+        /* Gallery 
+===========================================*/
+
+
+         #Gallery{
+
+             padding-top:50px;
+         }
+      #Gallery h3 {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #Gallery span {
+        margin: 0 0 -2px 0;
+        padding-bottom: 5px;
+        display: inline-block;
+        border-bottom: 2px solid #3771AE;
+        text-align: center;
+        width:50%
+    }
+
+    #Gallery p {
+
+        line-height:20pt;
+    }
+
+  
+  /* Gallery End
+===========================================*/
+
+
+
+
+    /* ContctUs 
+===========================================*/
+
+
+#ContctUs h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+    #ContctUs span {
+        margin: 0 0 -2px 0;
+        padding-bottom: 5px;
+        display: inline-block;
+        border-bottom: 2px solid #fff;
+        text-align: center;
+        width:50%;
+  
+    }
+
+    #ContctUs p {
+        color:#fff;
+        line-height:20pt;
+    }
+
+
+    /*Contacts Section
+------------------------------------*/
+
+    /*Heading Titles v1*/
+.title-v1 {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top:-145px;
+}
+
+.title-v1 h1, 
+.title-v1 h2 {
+  color: #444;
+  font-size: 28px;
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+
+}
+
+.title-v1 h1:after, 
+.title-v1 h2:after {
+  bottom: 0;
+  left: 50%;
+  height: 1px;
+  width: 70px;
+  content: " ";
+  margin-left: -35px;
+  position: absolute;
+  background: #3771AE;  
+}
+
+.title-v1 p {
+  font-size: 17px;
+  font-weight: 200;
+}
+.contacts-section {
+  color: #fff;
+  position: relative;
+  background: #333 url(../../img/3.jpg) center fixed;
+  background-size: cover;
+  
+
+}
+
+.contacts-section:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  content: " ";
+  position: absolute;
+  background: rgba(0,0,0,0.7);
+}
+
+.contacts-section:before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  content: " ";
+  position: absolute;
+  background: url(../img/gridtile.png) repeat;
+}
+
+/*Contacts Title*/
+.contacts-section .title-v1 p,
+.contacts-section .title-v1 h2 {
+  color: #fff;
+}
+
+/*Contacts Content*/
+.contacts-in {
+  z-index: 1;
+  color: #fff;
+  position: relative;
+  text-transform:lowercase;
+}
+
+.contacts-in h3 {
+  color: #fff;
+  margin-bottom: 15px;
+   text-align: center;
+}
+
+.contacts-in ul {
+  margin-top: 20px;
+}
+
+.contacts-in li {
+  color: #fff;
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.contacts-in li a {
+  color: #fff;
+}
+
+.contacts-in li i {
+  width: 35px;
+  padding: 8px;
+  font-size: 18px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  background: rgba(255,255,255,0.1);
+}
+
+.contacts-in form label {
+  color: #fff;
+  font-size: 14px; 
+  font-weight: 200;
+}
+
+.contacts-in form .form-control {
+  color: #fff;
+  box-shadow: none;
+  border-color: #eee;
+  background: rgba(0,0,0,0.2);
+}
+
+.contacts-in form .form-control:focus {
+  border-color: #bbb;
+  background: rgba(0,0,0,0.6);
+}
+
+.contacts-in form .btn-u.btn-brd.btn-u-dark {
+  color: #fff;
+  border-color: #fff;
+  background: rgba(0,0,0,0.2);
+}
+
+.contacts-in form .btn-u.btn-brd.btn-u-dark:hover {
+  border-color: #bbb;
+  background: rgba(0,0,0,0.6) !important;
+}
+
+
+
+
+  /* ContctUs End
+===========================================*/

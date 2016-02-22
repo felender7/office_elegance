@@ -1,0 +1,121 @@
+﻿
+@import url('bootstrap.min.css');
+@import url('../rs-plugin/css/settings.css');
+@import url('flexslider.css');
+@import url('animate.css');
+@import url('header.css');
+@import url('main.css');
+@import url('gallery.css');
+@import url('footer.css');
+@import url('prettyPhoto.css');
+@import url('app.css');
+@import url('jquery.fancybox.css');
+@import url('login.css');
+@import url('responsive.css');
+
+
+
+/*------------------------------------------------------------------
+
+[Master Stylesheet]
+
+Project:                Office Elegence
+Version:                1.0
+Last change:            12/06/2015
+Author:                 TheGudlife Business and Lifestyle
+Front-Eend Developer:   Felender Hlungwani[http://www.Beans-inc.co.za]
+
+------------------------------------------------------------------
+
+[Color codes]
+
+Body background:        #fff (white)
+Brand color:            #3771AE(Blue)
+Text:                   #333 (gray)
+Header h1-h6:           #222 (dark gray)
+Main nav background:    #fff (white)
+Footer background:      #3771AE(Blue)
+
+a (standard):           #3771AE(Blue)
+a (visited):            #3771AE(Blue)
+a (active):             #3771AE(Blue)
+a (hover):              #848688 (gray)
+
+------------------------------------------------------------------
+
+[Table of contents]
+
+1. Global 
+2. Header 
+    2.1 Preloader
+    2.2 Slider-fullwidthbanner
+    2.3 Navigation
+3. Gallery
+4. Forms 
+5. tables
+6. footer 
+7. Media Queries
+
+/* =============================================================================
+   Global Resets
+   ========================================================================== */
+
+body {
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 100%;
+    height: 100%;
+    Text-transform: capitalize;
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+}
+html{
+
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p {
+    
+    /*font-family: source-sans-pro, sans-serif;*/
+    font-weight: normal;
+    text-align: center;
+
+}
+
+p, 
+li,
+li a { 
+   color: #555;
+}
+
+a {
+   color: #3771AE;
+   text-decoration: none;  
+}
+
+a,
+a:focus, 
+a:hover, 
+a:active {
+   outline: 0 !important;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover {
+   color: #848688;
+   text-decoration: underline;
+}
+
+::selection {
+	color: #fff;
+	background: #848688;
+}

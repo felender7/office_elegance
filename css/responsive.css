@@ -1,0 +1,35 @@
+﻿@media (max-width: 1170px){
+
+    #getSocial{
+
+        display:none;
+    }
+
+}
+@media (max-width: 984px) {
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .single-photo{
+
+        margin-top:20px;
+    }
+}
+
+    @media (max-width: 767px){
+
+    .navbar-brand{
+
+        display:block;
+    }
+      #ContctUs{
+
+        text-align:center;
+    }
+      #ContctUs i {
+          display:none;
+      }
+
+}
